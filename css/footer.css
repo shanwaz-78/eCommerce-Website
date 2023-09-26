@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container .box {
+    background: black;
+    display: grid;
+}
+
+/* Images */
+.box .inner-box-1 img {
+    width: 300px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.box .inner-box-1 img:hover {
+    transition: 0.3s all;
+    box-shadow: 2px 4px 7px rgba(158, 143, 143, 0.7);
+}
+
+.box .inner-box-2 img {
+    width: 300px;
+    height: 250px;
+    margin-left: 870px;
+    margin-top: -520px;
+    cursor: pointer;
+}
+
+.box .inner-box-2 img:hover {
+    transition: 0.3s all;
+    box-shadow: 2px 4px 7px rgba(158, 143, 143, 0.7);
+}
+
+.box .inner-box-3 img {
+    width: 300px;
+    height: 150px;
+    margin-left: 450px;
+    cursor: pointer;
+}
+
+.box .inner-box-3 img:hover {
+    transition: 0.3s all;
+    box-shadow: 2px 4px 7px rgba(158, 143, 143, 0.7);
+}
+
+/* features link */
+.links .Features {
+    margin-left: 40px;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+.links .Features h3 {
+    color: #fff;
+}
+
+.links .Features ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* discover link */
+.links .Discover {
+    margin-left: 40px;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+.links .Discover h3 {
+    color: #fff;
+}
+
+.links .Discover ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* links-2 */
+/* resources */
+
+.links-2 .resources {
+    margin-left: 400px;
+    margin-top: -470px;
+    margin-right: 100px;
+}
+
+.links-2 .resources h3 {
+    color: #fff;
+}
+
+.links-2 .resources ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* comparison */
+.links-2 .comparison {
+    margin-left: 400px;
+    margin-top: 90px;
+    margin-right: 100px;
+}
+
+.links-2 .comparison h3 {
+    color: #fff;
+}
+
+.links-2 .comparison ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* links-2 connect */
+.links-2 .connect h3 {
+    color: #fff;
+    margin: 20px;
+}
+
+.links-2 .connect {
+    margin-left: 380px;
+}
+
+.links-2 .connect ul {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.links-2 .connect ul li a img {
+    width: 30px;
+    height: 30px;
+}
+
+/* links-3  explore-more*/
+.links-3 .explore-more h3 {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.links-3 .explore-more {
+    margin-left: 800px;
+    margin-top: -590px;
+    margin-right: 100px;
+}
+
+.links-3 .explore-more h3 {
+    color: #fff;
+}
+
+.links-3 .explore-more ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* links-3 collaborate */
+
+.links-3 .collaborate {
+    margin-left: 800px;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.links-3 .collaborate h3 {
+    color: #fff;
+}
+
+.links-3 .collaborate ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* container com */
+.container .com {
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+@media screen and (max-width:778px) {
+    .box .inner-box-1 img {
+        width: 310px;
+        height: 220px;
+        margin-left: 120px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+
+    .box .inner-box-2 img {
+        width: 310px;
+        height: 190px;
+        margin-left: 120px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+    .box .inner-box-3 img {
+        width: 310px;
+        height: 150px;
+        margin-left: 120px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+
+    .links .Features ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-right: 40px;
+    }
+
+    .links .Discover ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-right: 50px;
+    }
+
+    .links-2 .resources {
+        margin-left: 40px;
+        margin-top: 50px;
+        margin-right: 100px;
+    }
+
+    .links-2 .resources ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-right: 40px;
+    }
+
+    .links-2 .comparison {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+
+    .links-2 .comparison ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-right: 40px;
+    }
+
+    .links-2 .connect ul li a img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .links-2 .connect ul {
+        display: flex;
+        gap: 10px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    .links-2 .connect {
+        margin-left: 20px;
+    }
+
+    .links-3 .explore-more {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+
+    .links-3 .explore-more ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-right: 40px;
+    }
+
+    .links-3 .collaborate {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+
+    .links-3 .collaborate ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+
+    .container .com {
+        padding: 10px;
+        display: flex;
+        justify-content: start;
+        border-bottom: 1px solid lightgrey;
+    }
+}
+
+
+
+
+@media screen and (max-width:500px) {
+    .box .inner-box-1 img {
+        width: 200px;
+        height: 150px;
+        margin-left: 70px;
+    }
+
+    .box .inner-box-2 img {
+        width: 200px;
+        height: 150px;
+        margin-left: 70px;
+        margin-top: 2px;
+    }
+
+    .box .inner-box-3 img {
+        width: 200px;
+        height: 150px;
+        margin-left: 70px;
+    }
+
+
+    .links .Features ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .links .Discover ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+.box .img:hover {
+    box-shadow: 2px 4px 8px rgba(.2, .3, .3, .7);
+}
