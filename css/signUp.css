@@ -1,0 +1,166 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: black;
+    overflow: hidden;
+    width: 740px;
+    height: 940x;
+}
+
+.container img {
+    height: 30px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.container .heading {
+    margin-top: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.container .heading h2 span {
+    word-spacing: -20px;
+}
+
+.container .heading h1 {
+    color: lightgreen;
+}
+
+.container .heading p {
+    text-align: center;
+    justify-self: justify;
+    color: aliceblue;
+}
+
+.container .heading h3 {
+    color: aliceblue;
+}
+
+.container .heading h4 {
+    color: lightgreen;
+}
+
+.container .logo img {
+    margin-top: 219px;
+    justify-self: space-around;
+}
+
+.container .logo #img1 {
+    margin-left: 150px;
+}
+
+.container .logo #img2 {
+    margin-left: 150px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+
+/* Form */
+
+.container2 {
+    margin-left: 740px;
+    margin-top: -960px;
+}
+
+.child {
+    color: solid black;
+}
+
+.container2 .zoho img {
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: -100px;
+}
+
+.container2 .zoho {
+    width: 800px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.container2 .zoho .form {
+    margin-left: 10px;
+    margin-top: -60px;
+}
+
+.container2 .zoho .form h2 {
+    margin-left: 20px;
+}
+
+.container2 .zoho .form label {
+    margin-left: 25px;
+    justify-content: space-between;
+}
+
+.container2 .zoho .form input {
+    padding: 15px;
+    width: 485px;
+    margin-left: 25px;
+}
+
+.container2 .zoho .box {
+    margin-left: 25px;
+}
+
+.container2 .zoho .box #side {
+    margin-left: 15px;
+    padding-right: 20px;
+}
+
+.container2 .zoho .box #agree {
+    margin-top: -25px;
+    margin-left: 25px;
+}
+
+.box button {
+    padding: 15px;
+    width: 500px;
+    color: #fff;
+    margin-left: 25px;
+    background-color: crimson;
+    border: none;
+    cursor: pointer;
+}
+
+.container2 .zoho .box h6 {
+    padding: 10px;
+    margin: 10px;
+    font-size: 10px;
+}
+
+
+/* Image */
+
+.container2 .zoho .box img {
+    height: 30px;
+    width: 30px;
+    margin-left: 100px;
+}
+
+.container2 .zoho .box #one {
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+
+.container2 .zoho .box #two {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.container2 .zoho .box #three {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.box #max {
+    margin-left: 70px;
+    margin-top: 100px;
+}
